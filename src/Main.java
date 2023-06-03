@@ -63,9 +63,7 @@ if (deliveryDistance < 20) { System.out.println("Доставка занимае
     else if (deliveryDistance >= 20 && deliveryDistance < 60 ) { System.out.println("Доставка занимает двое суток");}
     else if (deliveryDistance >= 60 && deliveryDistance < 100) {System.out.println("Доставка занимает трое суток");}
     else if (deliveryDistance >= 100) {System.out.println("Доставка не осуществляется");}
-
     }
-
 
     public static void task5() {
         System.out.println("Задача 5");
@@ -93,8 +91,6 @@ if (deliveryDistance < 20) { System.out.println("Доставка занимае
                 break;
             default:
                 System.out.println("Всего 12 месяцев, месяца с таким порядковым номером не существует");
-
-
         }
     }
 }
