@@ -5,6 +5,7 @@ public class Main {
         task3();
         task4();
         task5();
+        task6();
     }
 
     public static void task1() {
@@ -14,11 +15,9 @@ public class Main {
             case 0:
                 System.out.println("Установите версию приложения для iOS по ссылке");
                 break;
-
             case 1:
                 System.out.println("Установите версию приложения для Android по ссылке");
                 break;
-
             default:
                 System.out.println("Обратитесь в тех.помощь");
         }
@@ -32,37 +31,37 @@ public class Main {
             System.out.println("Установите облегченную версию приложения для iOS по ссылке");
         } else if (clientOS == 0 && clientDeviceYear >= 2015) {
             System.out.println("Установите версию приложения для iOS по ссылке");
-            ;
         } else if (clientOS == 1 && clientDeviceYear < 2015) {
             System.out.println("Установите облегченную версию приложения для Android по ссылке");
-            ;
         } else if (clientOS == 1 && clientDeviceYear >= 2015) {
             System.out.println("Установите версию приложения для Android по ссылке");
-            ;
         } else {
             System.out.println("Обратитесь в тех. поддержку");
-            ;
         }
     }
 
     public static void task3() {
         System.out.println("Задача 3");
         int year = 2021;
-        if (((year % 4) == 0) && ((year % 100) != 0) || ((year % 400) == 0))
-        {
+        if (((year % 4) == 0) && ((year % 100) != 0) || ((year % 400) == 0)) {
             System.out.println("Год високосный");
-        }  else {
+        } else {
             System.out.println("Год не является високосным");
         }
     }
 
     public static void task4() {
         System.out.println("Задача 4");
-int deliveryDistance = 95;
-if (deliveryDistance < 20) { System.out.println("Доставка занимает 1 сутки");}
-    else if (deliveryDistance >= 20 && deliveryDistance < 60 ) { System.out.println("Доставка занимает двое суток");}
-    else if (deliveryDistance >= 60 && deliveryDistance < 100) {System.out.println("Доставка занимает трое суток");}
-    else if (deliveryDistance >= 100) {System.out.println("Доставка не осуществляется");}
+        int deliveryDistance = 95;
+        if (deliveryDistance < 20) {
+            System.out.println("Доставка занимает 1 сутки");
+        } else if (deliveryDistance >= 20 && deliveryDistance < 60) {
+            System.out.println("Доставка занимает двое суток");
+        } else if (deliveryDistance >= 60 && deliveryDistance < 100) {
+            System.out.println("Доставка занимает трое суток");
+        } else if (deliveryDistance >= 100) {
+            System.out.println("Доставка не осуществляется");
+        }
     }
 
     public static void task5() {
@@ -92,5 +91,18 @@ if (deliveryDistance < 20) { System.out.println("Доставка занимае
             default:
                 System.out.println("Всего 12 месяцев, месяца с таким порядковым номером не существует");
         }
+    }
+    public static void task6() {
+        System.out.println("Задача 6 ( вторая с поправками)");
+        int iOs = 0;
+        int android = 1;
+        int clientOs = 0;
+        int checkYear = 2015;
+        int clientDeviceYear = 2015;
+        if (clientOs == iOs && clientDeviceYear < checkYear) { System.out.println("Установите облегченную версию приложения для iOS по ссылке");}
+        else if (clientOs == iOs && clientDeviceYear >= checkYear) { System.out.println("Установите версию приложения для iOS по ссылке");}
+        else if (clientOs == android && clientDeviceYear < checkYear) { System.out.println("Установите облегченную версию приложения для Android по ссылке");}
+        else if (clientOs == android && clientDeviceYear >= checkYear) { System.out.println("Установите версию приложения для Android по ссылке");}
+        else {System.out.println("Обратитесь в тех. поддержку");}
     }
 }
