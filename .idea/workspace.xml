@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0fba599a-eb5a-455a-ae1f-19cb54942456" name="Changes" comment="дз 5&#10;проверьте, пожалуйста">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="0fba599a-eb5a-455a-ae1f-19cb54942456" name="Changes" comment="дз 5&#10;вместо шестой задачи переделала вторую">
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,7 +62,7 @@
       <option name="presentableId" value="Default" />
       <updated>1685780827151</updated>
       <workItem from="1685780828033" duration="10337000" />
-      <workItem from="1685908499173" duration="1816000" />
+      <workItem from="1685908499173" duration="3232000" />
     </task>
     <task id="LOCAL-00001" summary="дз 5">
       <created>1685781051029</created>
@@ -86,7 +85,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685822291389</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="дз 5&#10;исправленное">
+      <created>1685910693898</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1685910693898</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -106,6 +112,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="дз 5" />
     <MESSAGE value="дз 5&#10;проверьте, пожалуйста" />
-    <option name="LAST_COMMIT_MESSAGE" value="дз 5&#10;проверьте, пожалуйста" />
+    <MESSAGE value="дз 5&#10;исправленное" />
+    <MESSAGE value="дз 5&#10;вместо шестой задачи переделала вторую" />
+    <option name="LAST_COMMIT_MESSAGE" value="дз 5&#10;вместо шестой задачи переделала вторую" />
   </component>
 </project>
